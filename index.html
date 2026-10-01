@@ -15,13 +15,13 @@
     <section id="landing">
       <nav>
         <div class="nav__container">
-            <img class="logo" src="./assets/Library.svg" alt="" />
-            <ul class="nav__links">
-              <li><a href="#" class="nav__link">Home</a></li>
-              <li><a href="#" class="nav__link">Contact</a></li>
-              <li><a href="#" class="nav__link nav__link--primary">Books</a></li>
-            </ul>
-          
+          <img class="logo" src="./assets/Library.svg" alt="" />
+          <ul class="nav__links">
+            <li><a href="#" class="nav__link">Home</a></li>
+            <li><a href="#" class="nav__link">Contact</a></li>
+            <li><a href="#" class="nav__link nav__link--primary">Books</a></li>
+          </ul>
+
           <button class="btn__menu" onclick="openMenu()">
             <i class="fas fa-bars"></i>
           </button>
@@ -34,10 +34,14 @@
                 <a href="#" class="menu__link" onclick="closeMenu()">Home</a>
               </li>
               <li class="menu__list">
-                <a href="#features" class="menu__link" onclick="closeMenu()">Books</a>
+                <a href="#features" class="menu__link" onclick="closeMenu()"
+                  >Books</a
+                >
               </li>
               <li class="menu__list">
-                <a class="menu__link no-cursor" onclick="closeMenu()">Contacts</a>
+                <a class="menu__link no-cursor" onclick="closeMenu()"
+                  >Contacts</a
+                >
               </li>
             </ul>
           </div>
@@ -50,7 +54,8 @@
             <h2>
               Find your dream book with <span class="purple">Library</span>
             </h2>
-            <a href="#features"></a> <button class="btn">Browse Books</button>
+            <a href="#features"> <button class="btn">Browse Books</button>
+              </a>
           </div>
           <figure class="header__img--wrapper">
             <img src="./assets/Undraw_Books.svg" alt="" />
